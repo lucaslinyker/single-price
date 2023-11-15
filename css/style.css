@@ -1,0 +1,123 @@
+:root {
+    --cyan: #2ab2af;
+    --light-cyan: #4abebd;
+    --bright-yellow: #c0df34;
+    --white: #fff;
+    --light-gray: #e5eff5;
+    --grayish-blue: #98a7bd;
+
+    --border-radius: 5px;
+    --padding-sect: 25px;
+    --h1: 1.35em;
+    --h2: 1.17em;
+    --p: 0.9em;
+    --strong: 2em;
+}
+
+body,
+h1, h2, p,
+ul, li {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: 'Karla', sans-serif;
+    font-size: var(--p);
+    background-color: var(--light-gray);
+}
+
+.join-community {
+    width: 310px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 5px 50px 5px #98a7bd80;
+}
+
+.feature {
+    padding: 33px 25px;
+    background-color: var(--white);
+}
+
+.feature__title {
+    font-size: var(--h1);
+    color: var(--cyan);
+}
+
+.feature__subtitle {
+    margin: 20px 0;
+    font-size: 1em;
+    color: var(--bright-yellow);
+}
+
+.feature__description {
+    font-size: var(--p);
+    line-height: 1.8;
+    color: var(--grayish-blue);
+}
+
+.subscription {
+    padding: var(--padding-sect);
+    color: var(--white);
+    background-color: var(--cyan);
+}
+
+.subscription__title {
+    font-size: var(--h2);
+}
+
+.subscription__price {
+    margin: 20px 0 10px 0;
+}
+
+.subscription__value {
+    font-size: var(--strong);
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.subscription__period {
+    color: var(--light-gray);
+}
+
+.subscription__signup {
+    height: 45px;
+    width: 100%; /* 260px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 30px;
+    border-radius: var(--border-radius);
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--white);
+
+    background-color: var(--bright-yellow);
+    box-shadow: 0 5px 20px 0px #00000033;
+}
+
+.benefits {
+    padding: var(--padding-sect);
+    color: var(--white);
+    background-color: var(--light-cyan);
+}
+
+.benefits__title {
+    margin-bottom: 15px;
+    font-size: var(--h2);
+}
+
+.benefits__list {
+    font-size: var(--p);
+    line-height: 1.5;
+    list-style-type: none;
+    color: var(--light-gray);
+}
