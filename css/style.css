@@ -37,12 +37,12 @@ body {
 .join-community {
     width: 310px;
     border-radius: var(--border-radius);
-    overflow: hidden;
     box-shadow: 0 5px 50px 5px #98a7bd80;
 }
 
 .feature {
     padding: 33px 25px;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
     background-color: var(--white);
 }
 
@@ -107,6 +107,7 @@ body {
 .benefits {
     padding: var(--padding-sect);
     color: var(--white);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
     background-color: var(--light-cyan);
 }
 
