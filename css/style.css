@@ -122,3 +122,14 @@ body {
     list-style-type: none;
     color: var(--light-gray);
 }
+
+@media (min-width: 580px) {
+    .join-community {
+        width: 500px;
+        display: grid;
+    }
+
+    .feature {
+        grid-column: 1 / 3;
+    }
+}
