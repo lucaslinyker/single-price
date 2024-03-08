@@ -143,4 +143,17 @@ body {
         border-radius: 0 0 var(--border-radius) 0;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #303333;
+    }
+
+    .join-community {
+        box-shadow: 0 5px 50px 5px #98a7bd47;
+    }
+
+    .feature {
+        background-color: #28292a;
+    }
 }
