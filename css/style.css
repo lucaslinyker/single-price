@@ -134,4 +134,13 @@ body {
     .feature {
         grid-column: 1 / 3;
     }
+
+    .subscription {
+        border-radius: 0 0 0 var(--border-radius);
+    }
+
+    .benefits {
+        border-radius: 0 0 var(--border-radius) 0;
+    }
+}
 }
