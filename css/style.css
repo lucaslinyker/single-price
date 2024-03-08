@@ -28,13 +28,15 @@ body {
     align-items: center;
     justify-content: center;
 
+    padding: 40px;
     font-family: 'Karla', sans-serif;
     font-size: var(--p);
     background-color: var(--light-gray);
 }
 
 .join-community {
-    width: 310px;
+    min-width: 310px;
+    max-width: 400px;
     border-radius: var(--border-radius);
     box-shadow: 0 5px 50px 5px #98a7bd80;
 }
@@ -122,9 +124,10 @@ body {
     color: var(--light-gray);
 }
 
-@media (min-width: 580px) {
+@media (min-width: 550px) {
     .join-community {
-        width: 500px;
+        min-width: none;
+        max-width: 700px;
         display: grid;
     }
 
